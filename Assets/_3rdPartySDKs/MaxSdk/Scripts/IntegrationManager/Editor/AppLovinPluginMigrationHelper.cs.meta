@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bce88560a12ab3146ab87a216fdbaf2c
+labels:
+- al_max
+- al_max_export_path-MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPluginMigrationHelper.cs
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

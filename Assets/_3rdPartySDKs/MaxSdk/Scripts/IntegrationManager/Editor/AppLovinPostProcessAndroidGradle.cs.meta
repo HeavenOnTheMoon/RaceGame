@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 56a629a1a35773a4f967d95a3ea533f7
+labels:
+- al_max
+- al_max_export_path-MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPostProcessAndroidGradle.cs
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

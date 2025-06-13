@@ -1,0 +1,13 @@
+
+fish_8.png
+size: 161,219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+f8
+  rotate: false
+  xy: 2, 2
+  size: 157, 215
+  orig: 190, 240
+  offset: 17, 12
+  index: -1
