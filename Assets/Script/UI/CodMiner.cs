@@ -60,11 +60,16 @@ public class CodMiner : MonoBehaviour
     public void Store()
     {
         int music = PlayerPrefs.GetInt("Music", 1);
+        
         music = music == 1 ? 0 : 1;
         PlayerPrefs.SetInt("Music", music);
         StoreCry.gameObject.SetActive(music == 1);
         StoreCryHot.gameObject.SetActive(music != 1);
         A_AudioManager.Instance.ToggleMusic();
+        if (music == 1)
+        {
+            A_AudioManager.Instance.PlayMusic("Bg");
+        }
     }
     public void Bound()
     {
