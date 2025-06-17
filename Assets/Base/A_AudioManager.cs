@@ -69,7 +69,6 @@ public class A_AudioManager : MonoBehaviour
     public void PlayMusic(string name, float volume = 1f)
     {
         if (!isMusicOn) return;
-
         AudioClip musicClip = GetAudioClip(name);
         if (musicClip != null)
         {

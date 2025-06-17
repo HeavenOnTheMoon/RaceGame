@@ -8,6 +8,7 @@ public class BegMiner : MonoBehaviour
 [UnityEngine.Serialization.FormerlySerializedAs("Text_Coin")]    public Text Cost_Diet;
 [UnityEngine.Serialization.FormerlySerializedAs("AdButton")]    public Button HePhrase;
 [UnityEngine.Serialization.FormerlySerializedAs("GetButton")]    public Button CarPhrase;
+    public GameObject AdTitle;
     void Start()
     {
         HePhrase.onClick.AddListener(()=> {
@@ -17,6 +18,10 @@ public class BegMiner : MonoBehaviour
                     UIWarmDNA.Instance.ThoseMiner(UIType.Win);
                     RWarmDNA.Instance.IncomeDiet((RWarmDNA.Instance.WarmAlarmRecoil * 10 * 2));
                     GrowMiner.Instance.WarmAcid();
+                }
+                else
+                {
+                    AdTitle.SetActive(true);
                 }
                 
             });
